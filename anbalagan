@@ -1,0 +1,13 @@
+username = driver.find_element(By. Id, 'user-name') username.send_keys('standard_user')
+
+password = secret_sauce
+
+login_button = driver.find_element(By. Id, 'login-button')
+login_button.click()
+
+
+title = driver.title
+
+url = driver.current_url
+
+content = driver.page_source
